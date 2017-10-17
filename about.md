@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I've been asked too many times "how do I learn programming??" so I figured I would post my thoughts here.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[beau.wood18@gmail.com](mailto:beau.wood18@gmail.com)
