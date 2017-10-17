@@ -1,10 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: Introduction to the Terminal
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+I will write this initial post biased to using OSX (Windows to follow).
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+All Mac computers come with a per-installed Terminal application, open this using the searchlight:
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+![_config.yml]({{ site.baseurl }}/images/terminal-searchlight.png)
+
