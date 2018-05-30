@@ -114,14 +114,14 @@ for name, model in models:
 {% endhighlight %}
 
 Example output (could differ and ignore output about colinear variables)
-`
-LR: 0.666601 (0.076388)
-LDA: 0.622727 (0.068611)
-KNN: 0.688142 (0.070920)
-CART: 0.613834 (0.075783)
-NB: 0.561462 (0.158986)
-SVM: 0.702569 (0.095458)
-`
+
+> LR: 0.666601 (0.076388)
+> LDA: 0.622727 (0.068611)
+> KNN: 0.688142 (0.070920)
+> CART: 0.613834 (0.075783)
+> NB: 0.561462 (0.158986)
+> SVM: 0.702569 (0.095458)
+
 
 We can compare the results of each algo graphically
 {% highlight python %}
