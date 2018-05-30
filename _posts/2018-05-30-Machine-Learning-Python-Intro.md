@@ -9,7 +9,7 @@ This is a walkthrough of a simple Python machine learning example using open sou
 
 We are going to use machine learning to try to help screen women for breast cancer.  Specifically we will be using data from women who have previously had breast cancer to screen for a reccurence of the cancer.
 
-####Data
+#### Data
 Dataset we will be using for this example:
 https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer/breast-cancer.data
 
@@ -28,7 +28,7 @@ In this set there are 201 cases of "no-recurrence-events" and 85 cases of "recur
   10. irradiat: yes, no.
 
 
-####Pre-reqs
+#### Pre-reqs
 `sudo pip install scipy` - package containing Matplotlib and Pandas
 `sudo pip install numpy` - package for Python computing
 `sudo pip install matplotlib` - 2D plotting
@@ -36,10 +36,10 @@ In this set there are 201 cases of "no-recurrence-events" and 85 cases of "recur
 `sudo pip install sklearn` - Python machine learning tool
 
 
-####Import Libraries and Data
+#### Import Libraries and Data
 
 In ipyton import the necessary libraries
-```
+{% highlight python linenos %}
 import pandas
 from pandas.tools.plotting import scatter_matrix
 import matplotlib.pyplot as plt
@@ -53,7 +53,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
-```
+{% endhighlight %}
 
 Import the sample data set into a pandas data frame.  Names are whatever you would like to name the columns
 ```
@@ -70,7 +70,7 @@ Luckily pandas has a built in method to do this:
 dataset = pandas.get_dummies(dataset, columns=["age", 'menopause','tumor-size','inv-nodes','node-caps', 'breast','breast-quad','irradiat'])
 ```
 
-####Data Analysis
+#### Data Analysis
 Next we want to split our data into "training" and "validation" sets.  We will us a validation set of 20% of the total data.
 When defining **X** and **Y**, we are saying that X should be all rows of columns 0-41 and Y should be all rows of only column 0.
 ```
