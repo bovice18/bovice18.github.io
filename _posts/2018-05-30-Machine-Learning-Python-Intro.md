@@ -43,7 +43,7 @@ In this set there are 201 cases of "no-recurrence-events" and 85 cases of "recur
 ### Import Libraries and Data
 
 In ipyton import the necessary libraries
-{% highlight python %}
+```python
 import pandas
 from pandas.tools.plotting import scatter_matrix
 import matplotlib.pyplot as plt
@@ -57,7 +57,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
-{% endhighlight %}
+```
 
 Import the sample data set into a pandas data frame.  Names are whatever you would like to name the columns
 {% highlight python %}
