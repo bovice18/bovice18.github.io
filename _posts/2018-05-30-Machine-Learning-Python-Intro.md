@@ -5,7 +5,7 @@ title: Python Machine Learning Introduction
 
 This is a walkthrough of a simple Python machine learning example using open source libraries
 
-# Python Machine Learning Introduction #
+## Recurring Breast Cancer Screening ##
 
 We are going to use machine learning to try to help screen women for breast cancer.  Specifically we will be using data from women who have previously had breast cancer to screen for a reccurence of the cancer.
 
