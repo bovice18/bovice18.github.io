@@ -134,7 +134,6 @@ ax.set_xticklabels(names)
 plt.show()
 {% endhighlight %}
 ![Algo Compare]({{ "/images/Algo-Compare.png" }})
-{% endhighlight %}
 
 Let's pick one of the more successful algos and test it on our validation dataset.  I am going to select the k-nearest neighbor classifier (KNN)
 {% highlight python %}
