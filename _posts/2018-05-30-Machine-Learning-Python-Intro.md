@@ -5,17 +5,17 @@ title: Python Machine Learning Introduction
 
 This is a walkthrough of a simple Python machine learning example using open source libraries
 
-## Python Machine Learning Introduction ##
+# Python Machine Learning Introduction #
 
 We are going to use machine learning to try to help screen women for breast cancer.  Specifically we will be using data from women who have previously had breast cancer to screen for a reccurence of the cancer.
 
-#### Data
+### Data
 Dataset we will be using for this example:
 https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer/breast-cancer.data
 
 In this set there are 201 cases of "no-recurrence-events" and 85 cases of "recurrence-events
 
-**Fields:**
+*Fields:*
    1. Class: no-recurrence-events, recurrence-events
    2. age: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99.
    3. menopause: lt40, ge40, premeno.
@@ -28,7 +28,7 @@ In this set there are 201 cases of "no-recurrence-events" and 85 cases of "recur
   10. irradiat: yes, no.
 
 
-#### Pre-reqs
+### Pre-reqs
 `sudo pip install scipy` - package containing Matplotlib and Pandas
 
 `sudo pip install numpy` - package for Python computing
@@ -40,7 +40,7 @@ In this set there are 201 cases of "no-recurrence-events" and 85 cases of "recur
 `sudo pip install sklearn` - Python machine learning tool
 
 
-#### Import Libraries and Data
+### Import Libraries and Data
 
 In ipyton import the necessary libraries
 {% highlight python %}
@@ -74,7 +74,7 @@ Luckily pandas has a built in method to do this:
 dataset = pandas.get_dummies(dataset, columns=["age", 'menopause','tumor-size','inv-nodes','node-caps', 'breast','breast-quad','irradiat'])
 {% endhighlight %}
 
-#### Data Analysis
+### Data Analysis
 Next we want to split our data into "training" and "validation" sets.  We will us a validation set of 20% of the total data.
 When defining **X** and **Y**, we are saying that X should be all rows of columns 0-41 and Y should be all rows of only column 0.
 {% highlight python %}
