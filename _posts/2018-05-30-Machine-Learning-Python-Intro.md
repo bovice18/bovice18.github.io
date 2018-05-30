@@ -153,6 +153,7 @@ print(accuracy_score(Y_validation, predictions))
 0.758620689655
 {% endhighlight %}
 The below confusion matrix is of the form:
+
 true negatives - {0,0} 
 
 false negatives - {1,0}
