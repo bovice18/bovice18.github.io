@@ -11,7 +11,7 @@ We are going to use machine learning to try to help screen women for breast canc
 
 ### Data
 Dataset we will be using for this example:
-https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer/breast-cancer.data
+[breast cancer data](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer/breast-cancer.data)
 
 In this set there are 201 cases of "no-recurrence-events" and 85 cases of "recurrence-events
 
