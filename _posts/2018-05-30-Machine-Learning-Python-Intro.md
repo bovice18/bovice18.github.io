@@ -42,7 +42,7 @@ In this set there are 201 cases of "no-recurrence-events" and 85 cases of "recur
 
 ### Import Libraries and Data
 
-In ipyton import the necessary libraries
+In ipython import the necessary libraries
 {% highlight python %}
 import pandas
 from pandas.tools.plotting import scatter_matrix
